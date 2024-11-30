@@ -1,0 +1,83 @@
+body{
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 120px;
+    background-color: #f4f4f4;
+}
+.container{
+    display: flex;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+/* Left Section */
+.left-section{
+    background-color: #8b055f;
+    color: white;
+    padding: 50px;
+    font-size: large;
+}
+.profile-pic{
+    height: 180px;
+    width: 180px;
+    border: 2px solid white;
+    border-radius: 90px;
+}
+#skill ul li{
+    list-style-type: disc;
+    text-align: justify;
+}
+h2{
+    text-align: center;
+    padding-top: 30px;
+}
+#contact p a{
+    color: white;
+}
+#contact p a:hover{
+    color: blue;
+}
+
+/* Right Section */
+.right-section{
+    text-align: center;
+}
+h1{
+    font-size: 50px;
+    color: #980366;
+}
+#profile{
+    font-size: large;
+    padding: 50px;
+}
+#profile h2{
+    color: #c00682;
+}
+#profile p{
+    text-align: justify;
+}
+#education{
+    font-size: large;
+}
+#education h2{
+    color: #c00682;
+}
+#experience{
+    font-size: large;
+}
+#experience h2{
+    color: #c00682;
+}
+#button{
+    background-color: white;
+    color: #c00682;
+    font-size: 20px;
+    border: 1px solid #c00682;
+    border-radius: 20px;
+    padding: 10px;
+}
+#button:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    box-shadow:0px 0px 10px white;
+}
